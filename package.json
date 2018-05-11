@@ -1,0 +1,22 @@
+{
+  "name": "so",
+  "version": "1.0.0",
+  "description": "SO Question Poller",
+  "main": "poll.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://glynnbird.github.com/so"
+  },
+  "keywords": [
+    "StackOverflow"
+  ],
+  "author": "Glynn Bird <glynn.bird@gmail.com>",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@cloudant/cloudant": "^2.2.0",
+    "request": "^2.85.0"
+  }
+}
